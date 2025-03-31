@@ -7,7 +7,6 @@ import Skill from './components/Skill/skill';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/footer';
-import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
