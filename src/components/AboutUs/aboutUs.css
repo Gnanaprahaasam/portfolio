@@ -1,0 +1,62 @@
+#aboutUs .active-btn {
+    display: inline-block;
+    padding: .5rem 3rem;
+    border: .2rem solid var(--main-color);
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-weight: 500;
+    transition: .5s;
+    white-space: nowrap;
+    color: var(--white-color);
+    background: var(--bg-color)
+}
+
+
+#aboutUs .inActive-btn {
+    display: inline-block;
+    padding: .5rem 3rem;
+    border: 2px solid var(--bg-color);
+    border-radius: .5rem;
+    font-weight: 500;
+    transition: .5s;
+    white-space: nowrap;
+    background: var(--bg-color);
+    color: var(--main-color);
+}
+
+#aboutUs .active-btn:hover,
+#aboutUs .inActive-btn:hover {
+    opacity: 0.8;
+    color: var(--white-color);
+    box-shadow: none;
+}
+
+#aboutUs .keyword {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.card-style {
+    background: linear-gradient(180deg, var(--secondary-color), var(--bg-color));
+    border-radius: 1px;
+    padding: 1.9rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.card-style .keyTitle {
+    position: relative;
+    display: inline-block ;
+    color: transparent;
+    -webkit-text-stroke: 0.05rem var(--main-color);
+}
+
+#aboutUs h2,
+#aboutUs  .keyword {
+    font-weight: 600;
+}

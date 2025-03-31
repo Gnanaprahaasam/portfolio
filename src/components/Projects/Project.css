@@ -1,0 +1,73 @@
+#myprojects h2 {
+    font-weight: 600;
+}
+
+#myprojects h2>span,
+.project-card>p {
+    color: var(--main-color);
+}
+
+.project-card {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: linear-gradient(180deg, var(--secondary-color), var(--bg-color));
+}
+
+.project-card h2 {
+    color: transparent;
+    -webkit-text-stroke: .07rem var(--main-color);
+    white-space: nowrap;
+    margin-right: 1rem;
+}
+
+.project-link {
+    display: flex;
+    width: auto;
+    gap: 1rem;
+}
+
+.project-link a {
+    display: inline-flex;
+    font-size: 1rem;
+    border: .2rem solid var(--white-color);
+    border-radius: 50%;
+    padding: .4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    transition: .5s;
+    width: fit-content;
+}
+
+.project-link a:hover {
+    background: var(--white-color);
+    color: var(--black-color);
+    box-shadow: 0 0 1rem var(--white-color);
+}
+
+.project-link a[title="Live Site"] {
+    position: relative;
+}
+
+.project-link a[title="Live Site"]::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--tooltip-bg-color, #333);
+    color: var(--tooltip-text-color, #fff);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 100;
+}
+
+.project-link a[title="Live Site"]:hover::after {
+    opacity: 1;
+    visibility: visible;
+}

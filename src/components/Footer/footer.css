@@ -1,0 +1,9 @@
+
+footer{
+    color: var(--white-color);
+    margin-bottom: 6rem;
+}
+
+.keyword {
+    color: var(--main-color);
+}
