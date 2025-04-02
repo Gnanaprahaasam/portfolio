@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
-import { IoLogoGithub } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io";
 import emailjs from '@emailjs/browser';
 
 
@@ -117,7 +117,7 @@ const Contact = () => {
                                 </div>
                                 <div className="d-flex gap-3 mb-4">
                                     <div className="contact-icon" >
-                                        <IoLogoGithub size={25} />
+                                        <IoLogoLinkedin size={25} />
                                     </div>
                                     <div >
                                         <div className="keyword">Linked In</div>
