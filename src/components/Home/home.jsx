@@ -15,12 +15,12 @@ const Home = () => {
                             <p className='my-3 '>I’m a software developer passionate about continuous learning, skilled in FullStack development. Proficient in multiple programming languages and problem-solving. I am seeking a collaborative team where I can enhance my skills and contribute meaningfully to growth while advancing my career.
                             </p>
                             <div className='d-flex flex-row align-items-center flex-wrap flex-sm-nowrap'>
-                                <a href="#" download className='my-2 cv-btn'>
+                                <a href="/GP resume.pdf" download className='my-2 cv-btn'>
                                     Get My CV
                                 </a>
                                 <div className='social'>
-                                    <a href="" className='' target='_blank'><IoLogoGithub /></a>
-                                    <a href="" className='' target='_blank'><IoLogoLinkedin /></a>
+                                    <a href="https://github.com/Gnanaprahaasam"  target='_blank' rel="noopener noreferrer"><IoLogoGithub /></a>
+                                    <a href="https://www.linkedin.com/in/gnana-prahaasam-sr" target="_blank" rel="noopener noreferrer"><IoLogoLinkedin /></a>
                                 </div>
                             </div>
                         </div>

@@ -121,7 +121,7 @@ const Contact = () => {
                                     </div>
                                     <div >
                                         <div className="keyword">Linked In</div>
-                                        <a href="https://www.linkedin.com/in/gnana prahaasam-sr-2b2433219" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/gnana prahaasam-sr-2b2433219</a>
+                                        <a href="https://www.linkedin.com/in/gnana-prahaasam-sr" target="_blank" rel="noopener noreferrer">Gnana prahaasam SR</a>
                                     </div>
                                 </div>
                             </div>
