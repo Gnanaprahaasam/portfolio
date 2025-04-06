@@ -13,7 +13,7 @@ const AboutUs = () => {
                     <div className=" col-12 col-md-4 d-flex align-items-start h-100">
                         <div>
                             <h2 className='text-center'>About <span className="keyword">Us</span> </h2>
-                            <p className='my-3 text-wrap'>I have nearly two years of experience in web development, specializing in building applications using React.js, Express.js, and Node.js, with MongoDB for database management. I have been actively involved in all stages of the development process, including requirement gathering and deployment.
+                            <p className='my-3 text-wrap' style={{textAlign:"justify"}}>I have two years of experience in web development, specializing in building applications using the MERN stack and Microsoft SharePoint Framework (SPFx). I have been actively involved in all phases of the development lifecycle, including requirement gathering, development, and deployment.
                             </p>
                             <div className='d-flex  gap-2 flex-wrap align-items-center '>
                                 <button onClick={() => setContent("Experience")} className={content === "Experience" ? "active-btn my-3" : "inActive-btn my-3"}>Experience</button>

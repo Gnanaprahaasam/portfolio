@@ -12,7 +12,7 @@ const Home = () => {
                         <div className='d-block'>
                             <h2 className='text-wrap'>Hi, I'm Gnana Prahaasam</h2>
                             <h3 className='my-3' data-text="MERN Stack Developer">MERN Stack Developer</h3>
-                            <p className='my-3 '>I’m a software developer passionate about continuous learning, skilled in FullStack development. Proficient in multiple programming languages and problem-solving. I am seeking a collaborative team where I can enhance my skills and contribute meaningfully to growth while advancing my career.
+                            <p className='my-3 '>I’m a software developer passionate about continuous learning, skilled in FullStack development. Proficient in multiple programming languages and problem-solving.
                             </p>
                             <div className='d-flex flex-row align-items-center flex-wrap flex-sm-nowrap'>
                                 <a href="/GP resume.pdf" download className='my-2 cv-btn'>
